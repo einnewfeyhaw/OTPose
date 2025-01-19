@@ -289,7 +289,7 @@ class PoseTrackDataset(BaseDataset):
         else:
             next_delta = next_delta_range[0]
             margin_right = next_delta
-            nnext_delta = next_delta_range[0]
+            nnext_delta = next_delta_range[1]
             margin_rright = nnext_delta
 
         prev_idx = current_idx - prev_delta
